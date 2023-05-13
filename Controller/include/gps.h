@@ -1,12 +1,12 @@
 #include <vector>
-#ifndef fin.h
-#define fin.h
+#ifndef gps.h
+#define gps.h
 
-class Fin {
+class GPS {
     public:
-        Fin();
+        GPS();
         void calibrate();
-        void setAngle(float angle);
+        float getAltitude();
     private:
         double offset;
 };

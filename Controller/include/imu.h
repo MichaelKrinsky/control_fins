@@ -5,7 +5,8 @@ class IMU{
     public:
         IMU();
         double getAcceleration(char direction);
-        double getRotationalSpeed();
+        float getRotationalSpeed( char direction);
+        float getSpeed( char direction);
     private:
         void calibrate();
         
